@@ -1,0 +1,11 @@
+# Mac:
+.DS_Store
+*/.DS_Store
+
+# Windows:
+Thumbs.db
+*/Thumbs.db
+
+# Test Build: 
+UnitySource/test/Corona\ Virus\ Interacitve\ Movie/Build/
+tmp/
