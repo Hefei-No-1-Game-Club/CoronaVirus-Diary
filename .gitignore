@@ -1,0 +1,8 @@
+# Mac
+.DS_Store
+*/.DS_Store
+
+# Windows
+Thumbs.db
+*/Thumbs.db
+
