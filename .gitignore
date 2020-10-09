@@ -8,6 +8,8 @@ Thumbs.db
 
 # Test Build: 
 UnitySource/test/Corona\ Virus\ Interacitve\ Movie/Build/
+UnitySource/release\ source/Library/PlayerDataCache/
+UnitySource/build*
 tmp/
 
 
