@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is designed to help teenagers (especially those people who is under 14 years old) to get information on what COVID-19 is and how to protect themselves from COVID-19 in an interactive and funnyway. 
+This project is designed to help teenagers (especially those people who is under 14 years old) to get information on what COVID-19 is and how to protect themselves from COVID-19 in an interactive and funny way. 
 
 ## Installation
 
@@ -23,3 +23,19 @@ Unfortunately, this is not available currently. We will add it when the official
 ## Disclaimer
 
 The suggestions in this game may conflict with your local CDC suggestions, **PLEASE FOLLOW THEIR SUGGESTIONS WHEN THIS HAPPENS!**
+
+For more information about COVID-19, please visit: 
+
+CDC of some countries list: 
+
+China: [中国疾病预防控制中心](http://www.chinacdc.cn/)
+
+United States: [Centers for Disease Control and Prevention](https://www.cdc.gov/)
+
+European Union: [Eruopean Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/)
+
+United Kingdom: [Department of Health and Social Care](https://www.gov.uk/government/organisations/department-of-health-and-social-care)
+
+Russia: [Ministry of Health of the Russian Federation](https://minzdrav.gov.ru/)
+
+World Health Organization: [World Health Organization](https://www.who.int/)
