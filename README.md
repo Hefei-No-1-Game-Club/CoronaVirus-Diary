@@ -1,3 +1,6 @@
+[简体中文](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame/blob/master/README_CN.md) | **English** | [Français](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame/blob/master/README_FR.md) | [Español](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame/blob/master/README_ES.md) | [عربى](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame/blob/master/README_ARAB.md) 
+ | [Русский](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame/blob/master/README_RU.md)
+ 
 # COVID19InfoGame
 
 ## Description

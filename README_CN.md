@@ -1,3 +1,6 @@
+**简体中文** | [English](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame/blob/master/README.md) | [Français](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame/blob/master/README_FR.md) | [Español](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame/blob/master/README_ES.md) | [عربى](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame/blob/master/README_ARAB.md)
+ | [Русский](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame/blob/master/README_RU.md)
+
 # COVID19InfoGame
 
 ## 描述
@@ -23,3 +26,17 @@
 ## 免责声明
 
 此游戏中的建议可能与您当地的公共卫生机构的建议冲突， **如果这种情况发生了，请听从他们的建议！**
+
+有关更多新馆肺炎的信息，请访问[中国疾病预防控制中心](http://www.chinacdc.cn/)。
+
+海外用户请根据您当前所在位置访问：
+
+美国：[Centers for Disease Control and Prevention](https://www.cdc.gov/)
+
+欧洲（除英国）：[Eruopean Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/)
+
+英国：[Department of Health and Social Care](https://www.gov.uk/government/organisations/department-of-health-and-social-care)
+
+俄罗斯：[Ministry of Health of the Russian Federation](https://minzdrav.gov.ru/)
+
+世界卫生组织（WHO）：[World Health Organization](https://www.who.int/)
