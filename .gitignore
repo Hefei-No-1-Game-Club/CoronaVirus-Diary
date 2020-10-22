@@ -6,3 +6,5 @@
 Thumbs.db
 */Thumbs.db
 
+# Remove sensory data
+*/package.json
