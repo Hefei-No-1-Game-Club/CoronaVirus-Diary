@@ -1,0 +1,7 @@
+@media (prefers-color-scheme: dark) {
+  body {background: #000000;color: #ffffff}
+}
+@media (prefers-color-scheme: light) {
+  body {background: #ffffff;color: #000000}
+}
+.maincontent {text-align: center}
