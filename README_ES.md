@@ -9,7 +9,7 @@ Este proyecto está diseñado para ayudar a los adolescentes (especialmente a aq
 
 ## Instalación
 
-Desafortunadamente, el instalador binario oficial no está disponible actualmente. Si desea instalarlo, clone el código en su máquina local y compílelo. La versión de creación de Unity®️ sugerida es 2020.1.4f1c1.
+Desafortunadamente, el instalador binario oficial no está disponible actualmente. Si desea instalarlo, clone el código en su máquina local y compílelo. La versión de creación de Unity®️ sugerida es 2020.1.10f1c1.
 
 ## Caracteristicas
 

@@ -9,7 +9,7 @@ Ce projet est conçu pour aider les adolescents (en particulier les personnes de
 
 ## Installation
 
-Malheureusement, le programme d'installation binaire officiel n'est pas disponible actuellement. Si vous souhaitez l'installer, veuillez cloner le code sur votre machine locale et le construire. La version de construction Unity®️ suggérée est 2020.1.4f1c1.
+Malheureusement, le programme d'installation binaire officiel n'est pas disponible actuellement. Si vous souhaitez l'installer, veuillez cloner le code sur votre machine locale et le construire. La version de construction Unity®️ suggérée est 2020.1.10f1c1.
 
 ## Traits
 
