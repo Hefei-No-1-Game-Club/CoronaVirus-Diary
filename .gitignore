@@ -6,3 +6,7 @@
 Thumbs.db
 */Thumbs.db
 
+# Ignore for local apache server
+.htaccess
+*/*.log
+*.log
