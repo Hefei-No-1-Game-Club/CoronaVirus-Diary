@@ -8,3 +8,6 @@ Thumbs.db
 
 # Remove sensory data
 */package.json
+
+# Remove local machine build
+generate_all-platform/
