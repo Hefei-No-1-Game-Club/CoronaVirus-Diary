@@ -23,6 +23,12 @@ Desafortunadamente, el instalador binario oficial no está disponible actualment
 
 Desafortunadamente, esto no está disponible actualmente. Lo agregaremos cuando el instalador binario oficial esté disponible.
 
+## Patrocinio
+
+Tenga en cuenta que este proyecto fue construido con amor por nuestro club.
+
+Si cree que hemos hecho un gran trabajo, **considere apoyar nuestro trabajo**. Puede seguir el botón "Sponsor" en la parte superior de la pantalla. Se aceptan WeChat Pay, AliPay y Patreon. ¡Gracias de todos modos!
+
 ## Descargo de responsabilidad
 Esto puede entrar en conflicto con sus sugerencias locales de los CDC. ** ¡SIGA SUS SUGERENCIAS CUANDO ESTO SUCEDA! **
 

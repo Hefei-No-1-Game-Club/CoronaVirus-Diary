@@ -23,6 +23,12 @@ Unfortunately, the official binary installer is not available currently. If you 
 
 Unfortunately, this is not available currently. We will add it when the official binary installer is available. 
 
+## Sponsorship
+
+Please notice that this project was built with love by our club. 
+
+If you think we have done a great job, **please consider support our work**. You can follow the Sponsor button at the top of the screen. WeChat Pay, AliPay, and Patreon are accepted. Anyway, thanks! 
+
 ## Disclaimer
 
 The suggestions in this game may conflict with your local CDC suggestions, **PLEASE FOLLOW THEIR SUGGESTIONS WHEN THIS HAPPENS!**

@@ -23,6 +23,12 @@ Malheureusement, le programme d'installation binaire officiel n'est pas disponib
 
 Malheureusement, ce n'est pas disponible actuellement. Nous l'ajouterons lorsque l'installateur binaire officiel sera disponible.
 
+## Parrainage
+
+Veuillez noter que ce projet a été construit avec amour par notre club.
+
+Si vous pensez que nous avons fait un excellent travail, **pensez à soutenir notre travail**. Vous pouvez suivre le bouton "Sponsor" en haut de l'écran. WeChat Pay, AliPay et Patreon sont acceptés. Bref, merci!
+
 ## Avertissement
 
 Les suggestions de ce jeu peuvent entrer en conflit avec vos suggestions CDC locales, ** VEUILLEZ SUIVRE LEURS SUGGESTIONS LORSQUE CELA SE PRODUIT! **
