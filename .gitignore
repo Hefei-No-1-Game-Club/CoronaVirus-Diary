@@ -10,4 +10,4 @@ Thumbs.db
 */package.json
 
 # Remove local machine build
-generate_all-platform/
+generate_all_platform/
