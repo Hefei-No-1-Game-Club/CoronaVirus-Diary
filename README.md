@@ -4,7 +4,7 @@
 
 This branch is set to be the Github Page of this project. 
 
-Currently, we are actively involving into this. However this is not the real deployed page, so when you access this address, you will be redirected to the [project home page](https://hfyzgameclub.eastasia.cloudapp.azure.com) of this project. 
+Currently, we are actively involving into this. However, this is not the real deployed page, so when you access this address, you will be redirected to the [project home page](https://hfyzgameclub.eastasia.cloudapp.azure.com) of this project. 
 
 We will add some contents to this branch soon. 
 
