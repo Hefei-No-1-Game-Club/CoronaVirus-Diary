@@ -13,3 +13,8 @@ Thumbs.db
 
 # Disable the non-finished angular front-end
 node_modules/
+
+# Disable binary upload
+download/test/*/*.dmg
+download/test/*/*.msi
+download/test/*/*.deb
