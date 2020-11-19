@@ -16,5 +16,5 @@ node_modules/
 
 # Disable binary upload
 download/test/*/*.dmg
-download/test/*/*.msi
+download/test/*/*.appx
 download/test/*/*.deb
