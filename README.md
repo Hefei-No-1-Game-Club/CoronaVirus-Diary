@@ -15,9 +15,12 @@ Unfortunately, the official binary installer is not available currently. If you 
 
 - You can get some information about COVID-19
 
-- You can know the current situation around the world about COVID-19 epidemic. 
+- You can know the current situation around the world about COVID-19 epidemic.
 
 - You can get some suggestions on protecting yourself from COVID-19.  
+
+- You can learn some funny things happened in a family of a boy during this period 
+
 
 ## Screenshot
 
