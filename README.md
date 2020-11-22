@@ -5,7 +5,7 @@
 
 ## Description
 
-This project is designed to help teenagers (especially those people who is under 14 years old) to get information on what COVID-19 is and how to protect themselves from COVID-19 in an interactive and funny way. 
+This project is designed to help teenagers (especially those people who is under 14 years old) to get information on what COVID-19 is and how to protect themselves from COVID-19 in an interactive and funny way. It also can inspire teenagers to think about people and countries' different attitudes towards this pandemic. 
 
 ## Installation
 
