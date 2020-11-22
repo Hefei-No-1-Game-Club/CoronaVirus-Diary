@@ -1,0 +1,200 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/lvwenzhuo/coding-related/COVID19InfoGame/UnitySource/release source
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59720
+Successfully changed project path to: /Users/lvwenzhuo/coding-related/COVID19InfoGame/UnitySource/release source
+/Users/lvwenzhuo/coding-related/COVID19InfoGame/UnitySource/release source
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0b8 (dff91d65251a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/lvwenzhuo/coding-related/COVID19InfoGame/UnitySource/release source/Assets
+GfxDevice: creating device client; threaded=0
+2020-11-19 20:43:31.080 Unity[5603:139475] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2020-11-19 20:43:31.080 Unity[5603:139475] Metal devices available: 1
+2020-11-19 20:43:31.080 Unity[5603:139475] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2020-11-19 20:43:31.080 Unity[5603:139475] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56603
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000803 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 40.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.972 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000498 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/lvwenzhuo/coding-related/COVID19InfoGame/UnitySource/release source/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 41.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.8 MB.
+System memory in use after: 144.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2206.
+Total: 2.607335 ms (FindLiveObjects: 0.512040 ms CreateObjectMapping: 0.080561 ms MarkObjects: 1.935364 ms  DeleteObjects: 0.078330 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Clips
+  artifactKey: Guid(1b7f811983fe0504797f87344235fbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clips using Guid(1b7f811983fe0504797f87344235fbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffc1882cf3225d45a64a16fd5a4880a') in 0.004810 seconds
+  Import took 0.009154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72fbc526f1981610ae3365b39d1ee74') in 0.000845 seconds
+  Import took 0.004276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9f8ef6964ad922646b4869f7a35e4f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9f8ef6964ad922646b4869f7a35e4f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2fc4b4fdc69bd7785d43858c50d5d8') in 0.000854 seconds
+  Import took 0.004223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(8774c27ac6fe61c46996f7c37592694d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(8774c27ac6fe61c46996f7c37592694d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf0174c1c0291a1bb62fdd07d12fe74') in 0.000696 seconds
+  Import took 0.004226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/FreeButtonSet
+  artifactKey: Guid(4fa630a95e3854215a9b57ec3b948bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeButtonSet using Guid(4fa630a95e3854215a9b57ec3b948bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304454211600f6b677adbf606e1b3aa1') in 0.000916 seconds
+  Import took 0.004618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(8c5f57c64cba3ba4da61061d51cc056f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(8c5f57c64cba3ba4da61061d51cc056f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ca3c74bbfdddfbab5b976fb70a953f') in 0.001326 seconds
+  Import took 0.005281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Clean Vector Icons
+  artifactKey: Guid(e215db3da71e74c618ab542ce56f40b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons using Guid(e215db3da71e74c618ab542ce56f40b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c48d175a355ca076cab70cb3713180e') in 0.000770 seconds
+  Import took 0.003699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(9fa93a87108e00644ba6380bf0ee35f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(9fa93a87108e00644ba6380bf0ee35f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2062a6385eef4a90278ec3a52e515c68') in 0.000772 seconds
+  Import took 0.003689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Corona Virus Interactive Movie.unity
+  artifactKey: Guid(939ecf3b2c3499c4eb6cb388b1e8e529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Corona Virus Interactive Movie.unity using Guid(939ecf3b2c3499c4eb6cb388b1e8e529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77125847f8f5392e03e32300bb4178d') in 0.009551 seconds
+  Import took 0.013889 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004463 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/lvwenzhuo/coding-related/COVID19InfoGame/UnitySource/release source/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 37.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/lvwenzhuo/coding-related/COVID19InfoGame/UnitySource/release source/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.5 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2210.
+Total: 2.614422 ms (FindLiveObjects: 0.513230 ms CreateObjectMapping: 0.128477 ms MarkObjects: 1.941088 ms  DeleteObjects: 0.029939 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 109.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2210.
+Total: 2.355051 ms (FindLiveObjects: 0.353422 ms CreateObjectMapping: 0.082761 ms MarkObjects: 1.891174 ms  DeleteObjects: 0.026630 ms)
+

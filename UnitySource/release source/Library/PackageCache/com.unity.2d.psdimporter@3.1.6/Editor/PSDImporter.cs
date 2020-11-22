@@ -5,7 +5,7 @@ using PDNWrapper;
 using UnityEngine;
 using Unity.Collections;
 using System.Linq;
-using UnityEditor.Experimental.AssetImporters;
+
 using UnityEditor.U2D.Animation;
 using UnityEditor.U2D.Common;
 using UnityEditor.U2D.Sprites;
@@ -21,9 +21,9 @@ namespace UnityEditor.U2D.PSD
     /// <summary>
     /// ScriptedImporter to import Photoshop files
     /// </summary>
-    [ScriptedImporter(4, "psb")]
+    [UnityEditor.AssetImporters.ScriptedImporter(4, "psb")]
     [HelpURL("https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@3.1/manual/index.html")]
-    public class PSDImporter : ScriptedImporter, ISpriteEditorDataProvider
+    public class PSDImporter : UnityEditor.AssetImporters.ScriptedImporter, ISpriteEditorDataProvider
     {
         class UniqueNameGenerator
         {
@@ -203,7 +203,7 @@ namespace UnityEditor.U2D.PSD
         /// This argument contains all the contextual information needed to process the import
         /// event and is also used by the custom importer to store the resulting Unity Asset.
         /// </param>
-        public override void OnImportAsset(AssetImportContext ctx)
+        public override void OnImportAsset(UnityEditor.AssetImporters.AssetImportContext ctx)
         {
             FileStream fileStream = new FileStream(ctx.assetPath, FileMode.Open, FileAccess.Read);
             Document doc = null;
@@ -306,10 +306,10 @@ namespace UnityEditor.U2D.PSD
             ValidatePSDLayerId(doc.Layers, uniqueNameGenerator);
         }
         
-        TextureGenerationOutput ImportTexture(AssetImportContext ctx, NativeArray<Color32> imageData, int textureWidth, int textureHeight, int spriteStart, int spriteCount)
+        UnityEditor.AssetImporters.TextureGenerationOutput ImportTexture(UnityEditor.AssetImporters.AssetImportContext ctx, NativeArray<Color32> imageData, int textureWidth, int textureHeight, int spriteStart, int spriteCount)
         {
             if (!imageData.IsCreated || imageData.Length == 0)
-                return new TextureGenerationOutput();
+                return new UnityEditor.AssetImporters.TextureGenerationOutput();
             
             UnityEngine.Profiling.Profiler.BeginSample("ImportTexture");
             var platformSettings = GetPlatformTextureSettings(ctx.selectedBuildTarget);
@@ -325,7 +325,7 @@ namespace UnityEditor.U2D.PSD
             var textureCubemapSettings = m_TextureImporterSettings.ExtractTextureCubemapSettings();
             var textureWrapSettings = m_TextureImporterSettings.ExtractTextureWrapSettings();
 
-            TextureGenerationOutput output;
+            UnityEditor.AssetImporters.TextureGenerationOutput output;
             switch (m_TextureImporterSettings.textureType)
             {
                 case TextureImporterType.Default:
@@ -342,7 +342,7 @@ namespace UnityEditor.U2D.PSD
                     var textureSpriteSettings = m_TextureImporterSettings.ExtractTextureSpriteSettings();
                     textureSpriteSettings.packingTag = m_SpritePackingTag;
                     textureSpriteSettings.qualifyForPacking = !string.IsNullOrEmpty(m_SpritePackingTag);
-                    textureSpriteSettings.spriteSheetData = new UnityEditor.Experimental.AssetImporters.SpriteImportData[spriteCount];
+                    textureSpriteSettings.spriteSheetData = new UnityEditor.AssetImporters.SpriteImportData[spriteCount];
                     textureSettings.npotScale = TextureImporterNPOTScale.None;
                     textureSettings.secondaryTextures = secondaryTextures;
                     var spriteImportData = GetSpriteImportData();
@@ -367,7 +367,7 @@ namespace UnityEditor.U2D.PSD
                     break;
                 default:
                     Debug.LogAssertion("Unknown texture type for import");
-                    output = default(TextureGenerationOutput);
+                    output = default(UnityEditor.AssetImporters.TextureGenerationOutput);
                     break;
             }
             UnityEngine.Profiling.Profiler.EndSample();
@@ -413,7 +413,7 @@ namespace UnityEditor.U2D.PSD
             return GetUniqueName(name, namehash);
         }
 
-        void ImportFromLayers(AssetImportContext ctx, Document doc)
+        void ImportFromLayers(UnityEditor.AssetImporters.AssetImportContext ctx, Document doc)
         {
             NativeArray<Color32> output = default(NativeArray<Color32>);
 
@@ -605,7 +605,7 @@ namespace UnityEditor.U2D.PSD
             return platformSettings;
         }
 
-        void RegisterAssets(AssetImportContext ctx, TextureGenerationOutput output)
+        void RegisterAssets(UnityEditor.AssetImporters.AssetImportContext ctx, UnityEditor.AssetImporters.TextureGenerationOutput output)
         {
             List<int> assetNameHash = new List<int>();
             if (!string.IsNullOrEmpty(output.importInspectorWarnings))

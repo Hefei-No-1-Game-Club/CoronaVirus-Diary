@@ -9,7 +9,7 @@ This project is designed to help teenagers (especially those people who is under
 
 ## Installation
 
-Unfortunately, the official binary installer is not available currently. If you want to install it, please clone the code to your local machine and build it. The suggested building Unity®️ version is 2020.1.11f1c1. 
+Unfortunately, the official binary installer is not available currently. If you want to install it, please clone the code to your local machine and build it. The suggested building Unity®️ version is 2021.1.0a6. 
 
 ## Features
 

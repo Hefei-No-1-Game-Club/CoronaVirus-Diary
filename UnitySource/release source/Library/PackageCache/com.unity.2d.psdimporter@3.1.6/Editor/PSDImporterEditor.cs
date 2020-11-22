@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using PhotoshopFile;
-using UnityEditor.Experimental.AssetImporters;
+
 using UnityEditor.U2D.Animation;
 using UnityEditor.U2D.Common;
 using UnityEditor.U2D.Sprites;
@@ -14,7 +14,7 @@ namespace UnityEditor.U2D.PSD
     /// Inspector for PSDImporter
     /// </summary>
     [CustomEditor(typeof(PSDImporter))]
-    public class PSDImporterEditor : ScriptedImporterEditor
+    public class PSDImporterEditor : UnityEditor.AssetImporters.ScriptedImporterEditor
     {
         SerializedProperty m_TextureType;
         SerializedProperty m_TextureShape;
