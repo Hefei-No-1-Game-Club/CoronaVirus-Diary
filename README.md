@@ -5,7 +5,7 @@
 
 ## Description
 
-This project is designed to help teenagers (especially those people who is under 14 years old) to get information on what COVID-19 is and how to protect themselves from COVID-19 in an interactive and funny way. It also can inspire teenagers to think about people and countries' different attitudes towards this pandemic. 
+This project is designed to help teenagers (especially those people who is under 14 years old) to get information on what COVID-19 is and how to protect themselves from COVID-19 in an interactive and funny way. It also can inspire teenagers to think about people and countries' or regions' different attitudes towards this pandemic. 
 
 ## Installation
 
@@ -51,4 +51,10 @@ United Kingdom: [Department of Health and Social Care](https://www.gov.uk/govern
 
 Russia: [Ministry of Health of the Russian Federation](https://minzdrav.gov.ru/)
 
+For more information: 
+
 World Health Organization: [World Health Organization](https://www.who.int/)
+
+SARS-ConV (Coronavirus 2019): [Wikipedia: Coronavirus disease 2019](https://en.wikipedia.org/wiki/Coronavirus_disease_2019)
+
+COVID-19 Pandemic (Coronavirus epidemic 2019-2020): [Wikipedia: COVID-19 Pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic)
