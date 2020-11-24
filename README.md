@@ -8,6 +8,6 @@ Currently, we are actively involving into this. However, this is not the real de
 
 We will add some contents to this branch soon. 
 
-If you want to see the project overview, please visit the [github home page](https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame). 
+If you want to see the project overview, please visit the [github home page](https://github.com/Hefei-No-1-Game-Club/CoronaVirus-Diary). 
 
 If you are considering sponsorship, please click the sponsor button at the top of the screen. Thanks for your generosity! 
