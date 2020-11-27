@@ -23,8 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ab6cfba-b993-4c8d-ab0a-8cae06abd7b0" name="默认的" comment="Add Google Analytics">
+      <change afterPath="$PROJECT_DIR$/css/sponsor/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sponsor/alipay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sponsor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sponsor/wechat-pay.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/sponsor.html" afterDir="false" />
     </list>
@@ -32,6 +35,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -52,15 +62,20 @@
     <option name="defaultAccountId" value="b0f84f93-56aa-4d1f-a1af-b433594dfb13" />
   </component>
   <component name="ProjectId" id="1jmX3DbWaWKHee8ZA8TfH8mHw6Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,6 +99,7 @@
       <workItem from="1604410044782" duration="71000" />
       <workItem from="1604410202892" duration="1049000" />
       <workItem from="1604413937685" duration="2359000" />
+      <workItem from="1606461333401" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="Add Google Analytics">
       <created>1604411394938</created>
@@ -135,6 +151,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add Google Analytics" />
     <MESSAGE value="Update README.md" />
