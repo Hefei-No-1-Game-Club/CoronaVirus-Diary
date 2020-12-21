@@ -15,6 +15,6 @@ Thumbs.db
 node_modules/
 
 # Disable binary upload
-download/test/*/*.dmg
-download/test/*/*.appx
-download/test/*/*.deb
+*.dmg
+*.appx
+*.deb

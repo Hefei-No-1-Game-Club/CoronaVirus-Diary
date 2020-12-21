@@ -20,7 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ab6cfba-b993-4c8d-ab0a-8cae06abd7b0" name="默认的" comment="Add Google Analytics">
+      <change afterPath="$PROJECT_DIR$/css/index_backup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/stable/windows/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/test/corona-virus-interactive-movie-test_0.0.1-test_amd64.deb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/test/corona-virus-interactive-movie_0.0.1-test_amd64.dmg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq-zh-Hans.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_backup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mac-repair-noopen.command" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/support.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zh-Hans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/download/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/test/windows-amd64_appx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/download/test/windows-amd64_appx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +59,7 @@
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectId" id="1jmX3DbWaWKHee8ZA8TfH8mHw6Y" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="新增" />
   </component>
   <component name="ProjectViewState">
@@ -52,6 +67,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -64,8 +80,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -83,6 +105,13 @@
       <workItem from="1604413937685" duration="1168000" />
       <workItem from="1605790320017" duration="1467000" />
       <workItem from="1605885043019" duration="35000" />
+      <workItem from="1608119072064" duration="7801000" />
+      <workItem from="1608185067667" duration="1414000" />
+      <workItem from="1608186863241" duration="3269000" />
+      <workItem from="1608196540389" duration="2685000" />
+      <workItem from="1608258425065" duration="1233000" />
+      <workItem from="1608374946853" duration="3523000" />
+      <workItem from="1608533464241" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="Add Google Analytics">
       <created>1604411394938</created>
@@ -112,17 +141,26 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Google Analytics" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Google Analytics" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="349" y="161" key="SettingsEditor" timestamp="1604414604559">
+    <state x="535" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608128869423">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604414604559" />
+    <state x="535" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1608128869423" />
+    <state x="349" y="161" key="SettingsEditor" timestamp="1608201333589">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1608201333589" />
     <state x="440" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604411407105">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="258" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1604411407105" />
+    <state x="571" y="415" key="git4idea.ui.GitResetDialog" timestamp="1608099230849">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="571" y="415" key="git4idea.ui.GitResetDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1608099230849" />
   </component>
 </project>
