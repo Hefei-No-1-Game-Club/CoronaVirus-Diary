@@ -10,3 +10,11 @@ Thumbs.db
 .htaccess
 */*.log
 *.log
+
+# Disable the non-finished angular front-end
+node_modules/
+
+# Disable binary upload
+*.dmg
+*.appx
+*.deb

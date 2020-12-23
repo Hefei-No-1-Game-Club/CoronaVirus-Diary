@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100&display=swap');
+
+BODY {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: DengXian,sans-serif;
+    font-size: 14px;
+}
+
+TH {
+    font-size: 14px;
+}
+
+TD {
+    font-size: 14px;
+}
+
+H1 {
+    text-align: center;
+    font-size: 16px;
+}
+
+H2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+H4 {
+    font-size: 14px;
+}
+
+TABLE.news {
+    background-color: #c0c0c0;
+    width: 220px;
+}
+
+TR.news-header {
+    background-color: #8080E0;
+}
+
+TR.news {
+    background-color: #FFF8F8;
+}
+
+TD.news-title {
+    color: #ffffff;
+    font-weight: bold;
+    width: 55%;
+}
+
+TD.news-date {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: right;
+}
+
+TD.news-content {
+    font-size: 70%;
+}
+
+A.menu-link {
+    text-align: left;
+    font-weight: bold;
+    color: #0000ff;
+    text-decoration: none;
+}
+
+A.menu-link:hover {
+    color: #008000;
+}
+
+.menu-current {
+    text-align: left;
+    font-weight: bold;
+}
+
+TD.menu-column {
+    background-color: #E0E0E0;
+    width: 120%;
+}
+
+TH.title {
+    background-color: #A0E0A0;
+}
+
+TD.item {
+    background-color: #e0e0e0;
+}

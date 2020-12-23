@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /sponsor/
+Disallow: README.md
+Disallow: */README.md

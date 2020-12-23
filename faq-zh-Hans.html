@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常见问题</title>
+</head>
+<script>const language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en';
+localStorage.setItem('locale', language);
+if (language.indexOf("en") !== -1) {
+    window.location = '/faq.html'
+}</script>
+<body>
+<table border="0" cellpadding="10" cellspacing="10" class="menu-column" width="100%">
+    <tbody>
+    <tr>
+        <td class="menu-current" valign="top">
+            <table border="0" cellpadding="2" cellspacing="0" width="100%">
+                <tbody>
+                <tr>
+                    <td><img alt="club logo" height="200" src="icon.png" width="200"/></td>
+                    <td>
+                        <hr/>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table border="0" cellpadding="2" cellspacing="0" width="100%">
+                <tbody>
+                <tr>
+                    <td><a class="menu-link" href="/">主页</a></td>
+                </tr>
+                <tr>
+                    <td><a class="menu-link" href="/download/index.html">下载</a></td>
+                </tr>
+                <tr>
+                    <td><a class="menu-link" href="/support.html">支持</a></td>
+                </tr>
+                <tr>
+                    <td><span class="menu-current"><strong>常见问题</strong></span></td>
+                </tr>
+                <tr>
+                    <td><a class="menu-link" href="https://github.com/Hefei-No-1-Game-Club/CoronaVirus-Diary">Github项目主页</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table border="0" cellpadding="2" cellspacing="0" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <hr/>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table border="0" cellpadding="2" cellspacing="0" width="100%">
+                <tbody>
+                <tr>
+                    <td><a class="menu-link" href="/faq.html">English</a></td>
+                </tr>
+                <tr>
+                    <td><p><strong>简体中文</strong></p></td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+        <td valign="top">
+            <h1>常见问题</h1>
+            <ul>
+                <li>
+                    <a href="#User faq">致用户</a>
+                </li>
+                <li>
+                    <a href="#Developer faq">致开发者</a>
+                </li>
+            </ul>
+            <h2>
+                <a name="User faq"></a>致用户
+            </h2>
+            <h4>我的游戏无法启动</h4>
+            <p>确保您下载了对应平台的安装包，并请确认您的安装包没有损坏。损坏并不经常发生，但是在网络条件较差的环境下还请您务必留意这个问题。</p>
+            <h4>我尝试在Windows上打开安装包，但是软件安装器报错说不受信任的开发者。</h4>
+            <p>Windows平台的安装包是我们团队使用自签名证书签名的，因此你可能会收到该提示。请<a href="download/test/windows-amd64_appx/DefaultDeveloperCertificate.cer" type="application/x-x509-ca-cert">在这里</a>下载我们的证书并遵循<a href="https://techcommunity.microsoft.com/t5/windows-server-essentials-and/installing-a-self-signed-certificate-as-a-trusted-root-ca-in/ba-p/396105" type="text/html">Microsoft的证书安装帮助</a>。</p>
+            <h4>我在mac上安装了应用程序，但是我打不开</h4>
+            <p>Mac上的应用程序也需要重新签名。请下载<a href="mac-repair-noopen.command">这个脚本</a>对您的应用程序重新签名。</p>
+            <br/>
+            <br/>
+            <h2>
+                <a name="Developer faq"></a>致开发者
+            </h2>
+            <h4>Unity编辑器无法打开项目，因为使用了不支持的生成平台</h4>
+            <p>是的，有时我们会直接将在mac或linux生成完的项目直接上传至GitHub。当你下载这个版本的时候你的电脑可能会提示出错。请点按<strong>Continue</strong>忽略这个错误并继续加载，Unity编辑器会自动重新调整为为Windows生成。</p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

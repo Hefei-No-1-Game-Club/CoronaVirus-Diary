@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang=en>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Expires" content="0"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Cache-control" content="no-cache"/>
+<meta http-equiv="Cache" content="no-cache"/>
+<link rel="dns-prefetch" href="//github.com">
+<link rel="stylesheet" type="text/css" href="/css/index_backup.css"/>
+<meta http-equiv="refresh" content="5;URL=https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame">
+<head>
+    <title>Please stand by! </title>
+</head>
+<body>
+<div class="busy-loader">
+    <div class="w-ball-wrapper ball-1">
+        <div class="w-ball">
+        </div>
+    </div>
+    <div class="w-ball-wrapper ball-2">
+        <div class="w-ball">
+        </div>
+    </div>
+    <div class="w-ball-wrapper ball-3">
+        <div class="w-ball">
+        </div>
+    </div>
+    <div class="w-ball-wrapper ball-4">
+        <div class="w-ball">
+        </div>
+    </div>
+    <div class="w-ball-wrapper ball-5">
+        <div class=" w-ball">
+        </div>
+    </div>
+</div>
+<div class="maincontent">
+    <p>
+        <span style="font-size: x-large; font-family: Commissioner,serif; ">This process is automatic. Your browser will redirect to your requested
+            content shortly. </span>
+    </p>
+	<p>
+		 <span style="font-size: x-large; font-family: Commissioner,serif; ">If you do not wish to wait, please click <a href="https://github.com/Hefei-No-1-Game-Club/COVID19InfoGame">here</a>.</span>
+	 </p>
+    <p>浏览量:&nbsp;<span id="{{ post.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}"> - </span>次.
+    </p>
+</div>
+<script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js">
+</script>
+<script>AV.initialize("gLUY91RxtAEYC8VXf0wQtH5p-gzGzoHsz", "bR9ue0R3JrdiKMqShrE0A5Ak");
+var name = 'Counter';
+
+function createRecord(Counter) {
+    var acl = new AV.ACL();
+    acl.setPublicReadAccess(true);
+    acl.setPublicWriteAccess(true);
+    var elements = document.getElementsByClassName('leancloud_visitors');
+    var allcounter = [];
+    for (var i = 0; i < elements.length; i++) {
+        if (elements[i].textContent.indexOf('-') == -1) {
+            continue;
+        }
+        var title = elements[i].getAttribute('data-flag-title');
+        var url = elements[i].id;
+        var newcounter = new Counter();
+        newcounter.setACL(acl);
+        newcounter.set("title", title);
+        newcounter.set("url", url);
+        newcounter.set("time", 0);
+        allcounter.push(newcounter);
+        elements[i].textContent = 0;
+    }
+    AV.Object.saveAll(allcounter).then(function (todo) {
+        console.log('创建记录成功！');
+    }, function (error) {
+        console.error('创建记录失败: ' + error.message);
+    });
+}
+
+function showCount(Counter) {
+    var flag = false;
+    var query = new AV.Query(name);
+    query.greaterThanOrEqualTo('time', 0);
+    query.find().then(function (results) {
+        if (results.length == 0) {
+            $('.leancloud_visitors').text('-');
+            flag = true;
+            console.log('返回查询记录为空');
+            reateRecord(Counter);
+            return;
+        }
+        for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+            element.textContent = time;
+        }
+        if ($('.leancloud_visitors').text().indexOf("-") != -1) {
+            flag = true;
+        }
+        if (results.length != $('.leancloud_visitors').length) {
+            flag = true;
+        }
+        if (flag) {
+            createRecord(Counter);
+        }
+    }, function (error) {
+        console.log('query error:' + error.message);
+    });
+}
+
+$(function () {
+    var Counter = AV.Object.extend(name);
+    showCount(Counter);
+});</script>
+</body>
+</html>
