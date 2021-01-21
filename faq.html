@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8" content="text/html" http-equiv="content-type"/>
+<link href="/css/index.css" rel="stylesheet" type="text/css"/>
+<link href="icon.png" rel="icon"/>
+<link rel="dns-prefetch" href="//github.com"/>
 <head>
     <meta charset="UTF-8">
     <title>FAQ</title>
 </head>
-<script>const language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en';
+<script>let language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'zh';
 localStorage.setItem('locale', language);
+if (window.location.search === "?switchlang=true") {
+    language = "en";
+}
 if (language.indexOf("zh-") !== -1) {
-    window.location = '/faq-zh-Hans.html'
-}</script>
+    window.location = 'faq-zh-Hans.html?switchlang=true'
+}
+</script>
 <body>
 <table border="0" cellpadding="10" cellspacing="10" class="menu-column" width="100%">
     <tbody>
@@ -61,7 +69,7 @@ if (language.indexOf("zh-") !== -1) {
                     <td><p><strong>English</strong></p></td>
                 </tr>
                 <tr>
-                    <td><a class="menu-link" href="/zh-Hans.html">简体中文</a></td>
+                    <td><a class="menu-link" href="faq-zh-Hans.html?switchlang=true">简体中文</a></td>
                 </tr>
                 </tbody>
             </table>

@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
+<meta charset="UTF-8" content="text/html" http-equiv="content-type"/>
+<link href="/css/index.css" rel="stylesheet" type="text/css"/>
+<link href="icon.png" rel="icon"/>
+<link rel="dns-prefetch" href="//github.com"/>
 <head>
     <meta charset="UTF-8">
     <title>常见问题</title>
 </head>
-<script>const language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en';
+<script>let language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en';
 localStorage.setItem('locale', language);
-if (language.indexOf("en") !== -1) {
-    window.location = '/faq.html'
-}</script>
+if (window.location.search === "?switchlang=true") {
+    language = "zh";
+}
+if (language.indexOf("en-") !== -1) {
+    window.location = 'faq.html?switchlang=true'
+}
+</script>
 <body>
 <table border="0" cellpadding="10" cellspacing="10" class="menu-column" width="100%">
     <tbody>
@@ -27,13 +35,13 @@ if (language.indexOf("en") !== -1) {
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
                 <tbody>
                 <tr>
-                    <td><a class="menu-link" href="/">主页</a></td>
+                    <td><a class="menu-link" href="/zh-Hans.html?switchlang=true">主页</a></td>
                 </tr>
                 <tr>
                     <td><a class="menu-link" href="/download/index.html">下载</a></td>
                 </tr>
                 <tr>
-                    <td><a class="menu-link" href="/support.html">支持</a></td>
+                    <td><a class="menu-link" href="/support-zh.html">支持</a></td>
                 </tr>
                 <tr>
                     <td><span class="menu-current"><strong>常见问题</strong></span></td>
@@ -56,7 +64,7 @@ if (language.indexOf("en") !== -1) {
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
                 <tbody>
                 <tr>
-                    <td><a class="menu-link" href="/faq.html">English</a></td>
+                    <td><a class="menu-link" href="/faq.html?switchlang=true">English</a></td>
                 </tr>
                 <tr>
                     <td><p><strong>简体中文</strong></p></td>
