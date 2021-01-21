@@ -6,13 +6,15 @@
 <head>
     <title>Download</title>
 </head>
-<!--<script>
-	const language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en';
-	localStorage.setItem('locale', language);
-	if (language.indexOf("zh-") !== -1) {
-		window.location = 'zh-Hans.html'
-	}
-</script>-->
+<script>let language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'zh';
+localStorage.setItem('locale', language);
+if (window.location.search === "?switchlang=true") {
+    language = "en";
+}
+if (language.indexOf("zh-") !== -1) {
+    window.location = 'zh-Hans.html?switchlang=true'
+}
+</script>
 <body>
 <table border="0" cellpadding="10" cellspacing="10" class="menu-column" width="100%">
     <tbody>
@@ -31,16 +33,16 @@
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
                 <tbody>
                 <tr>
-                    <td><a class="menu-link" href="/">Home</a></td>
+                    <td><a class="menu-link" href="/index.html?switchlang=true">Home</a></td>
                 </tr>
                 <tr>
                     <td><span class="menu-current">Download</span></td>
                 </tr>
                 <tr>
-                    <td><a class="menu-link" href="/support.html" type="text/html">Support</a></td>
+                    <td><a class="menu-link" href="/support.html?switchlang=true" type="text/html">Support</a></td>
                 </tr>
                 <tr>
-                    <td><a class="menu-link" href="/faq.html" type="text/html"><strong>FAQ</strong></a></td>
+                    <td><a class="menu-link" href="/faq.html?switchlang=true" type="text/html"><strong>FAQ</strong></a></td>
                 </tr>
                 <tr>
                     <td><a class="menu-link" href="https://github.com/Hefei-No-1-Game-Club/CoronaVirus-Diary">GitHub Home Page</a>
@@ -63,7 +65,7 @@
                     <td><p><strong>English</strong></p></td>
                 </tr>
                 <tr>
-                    <td><a href="zh-Hans.html" type="text/html">简体中文</a></td>
+                    <td><a href="zh-Hans.html?switchlang=true" type="text/html">简体中文</a></td>
                 </tr>
                 </tbody>
             </table>
