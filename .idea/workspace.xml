@@ -19,23 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ab6cfba-b993-4c8d-ab0a-8cae06abd7b0" name="默认的" comment="Add Google Analytics">
-      <change afterPath="$PROJECT_DIR$/download/zh-Hans.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sponsor/index-BACKUP.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sponsor/zh-Hans-BACKUP.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sponsor/zh-Hans.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/support-zh.html" afterDir="false" />
+    <list default="true" id="8ab6cfba-b993-4c8d-ab0a-8cae06abd7b0" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/50x.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/50x.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sponsor/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sponsor/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq-zh-Hans.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq-zh-Hans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sponsor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sponsor/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/support.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zh-Hans.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh-Hans.html" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -56,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -87,6 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -152,6 +144,7 @@
       <workItem from="1610668846477" duration="1777000" />
       <workItem from="1610722132464" duration="2065000" />
       <workItem from="1611228141734" duration="5189000" />
+      <workItem from="1612626458835" duration="3412000" />
     </task>
     <task id="LOCAL-00001" summary="Add Google Analytics">
       <created>1604411394938</created>
