@@ -6,16 +6,32 @@
 <link rel="dns-prefetch" href="//github.com"/>
 <head>
     <meta charset="UTF-8">
-    <title>FAQ</title>
+    <title>FAQ | CoronaVirus-Diary</title>
 </head>
-<script>let language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'zh';
-localStorage.setItem('locale', language);
-if (window.location.search === "?switchlang=true") {
-    language = "en";
-}
-if (language.indexOf("zh-") !== -1) {
-    window.location = 'faq-zh-Hans.html?switchlang=true'
-}
+<script>
+    function getCookie(name){
+        var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+        if(arr=document.cookie.match(reg)){
+            return unescape(arr[2]);
+        }
+        else{
+            return null;
+        }
+    }
+    let language;
+    if (document.cookie.indexOf("lang") === -1) {
+        document.cookie = "lang=" + (localStorage.getItem('locale') || window.navigator.language.toLowerCase()) + ";expires=session;path=/";
+    }
+    if (window.location.search === "?switchlang=true") {
+        document.cookie="";
+        document.cookie="lang=en-us;expires=session;path=/"
+    }
+    if (document.cookie.indexOf("lang") !== -1){
+        language = getCookie("lang");
+    }
+    if (language.indexOf("zh-") !== -1) {
+        window.location = '/faq-zh-Hans.html'
+    }
 </script>
 <body>
 <table border="0" cellpadding="10" cellspacing="10" class="menu-column" width="100%">

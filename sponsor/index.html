@@ -5,13 +5,29 @@
 <link href="/icon.png" rel="icon"/>
 <link rel="dns-prefetch" href="//github.com"/>
 <head><title>Support and Sponsor | CoronaVirus-Diary</title></head>
-<script>let language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en';
-localStorage.setItem('locale', language);
-if (window.location.search === "?switchlang=true"){
-    language = "en";
+<script>
+    function getCookie(name){
+    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+    if(arr=document.cookie.match(reg)){
+        return unescape(arr[2]);
+    }
+    else{
+        return null;
+    }
+}
+let language;
+if (document.cookie.indexOf("lang") === -1) {
+    document.cookie = "lang=" + (localStorage.getItem('locale') || window.navigator.language.toLowerCase()) + ";expires=session;path=/";
+}
+if (window.location.search === "?switchlang=true") {
+    document.cookie="";
+    document.cookie="lang=en-us;expires=session;path=/"
+}
+if (document.cookie.indexOf("lang") !== -1){
+    language = getCookie("lang");
 }
 if (language.indexOf("zh-") !== -1) {
-    window.location = 'zh-Hans.html'
+    window.location = '/sponsor/zh-Hans.html'
 }
 </script>
 <body>
@@ -34,7 +50,7 @@ if (language.indexOf("zh-") !== -1) {
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
                 <tbody>
                 <tr>
-                    <td><a class="menu-link" href="/index.html?switchlang=true">Home</a></td>
+                    <td><a class="menu-link" href="/index.html">Home</a></td>
                 </tr>
                 <tr>
                     <td><a class="menu-link" href="/download/index.html">Download</a></td>

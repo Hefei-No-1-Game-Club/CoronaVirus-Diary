@@ -5,13 +5,29 @@
 <link href="/icon.png" rel="icon"/>
 <link rel="dns-prefetch" href="//github.com"/>
 <head><title>支持与捐赠 | CoronaVirus-Diary游戏</title></head>
-<script>let language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en';
-localStorage.setItem('locale', language);
+<script>
+    function getCookie(name){
+        var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+        if(arr=document.cookie.match(reg)){
+            return unescape(arr[2]);
+        }
+        else{
+            return null;
+        }
+    }
+let language;
+if (document.cookie.indexOf("lang") === -1){
+    document.cookie="lang="+(localStorage.getItem('locale') || window.navigator.language.toLowerCase())+";expires=session;path=/";
+}
 if (window.location.search === "?switchlang=true") {
-    language = "zh";
+    document.cookie="";
+    document.cookie="lang=zh-cn;expires=session;path=/"
+}
+if (document.cookie.indexOf("lang") !== -1){
+    language = getCookie("lang");
 }
 if (language.indexOf("en-") !== -1) {
-    window.location = '/index.html'
+    window.location = '/sponsor/index.html'
 }
 </script>
 <body>
@@ -34,16 +50,16 @@ if (language.indexOf("en-") !== -1) {
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
                 <tbody>
                 <tr>
-                    <td><a class="menu-link" href="/zh-Hans.html?switchlang=true">主页</a></td>
+                    <td><a class="menu-link" href="/zh-Hans.html">主页</a></td>
                 </tr>
                 <tr>
-                    <td><a class="menu-link" href="/download/zh-Hans.html?switchlang=true">下载</a></td>
+                    <td><a class="menu-link" href="/download/zh-Hans.html">下载</a></td>
                 </tr>
                 <tr>
                     <td><span class="menu-current">支持</span></td>
                 </tr>
                 <tr>
-                    <td><a class="menu-link" href="/faq.html?switchlang=true">常见问题</a></td>
+                    <td><a class="menu-link" href="/faq-zh-Hans.html">常见问题</a></td>
                 </tr>
                 <tr>
                     <td><a class="menu-link" href="https://github.com/Hefei-No-1-Game-Club/CoronaVirus-Diary"><!--<p>-->GitHub项目主页<!--</p><p>(You can find the Patreon link here)</p>--></a>

@@ -5,14 +5,30 @@
 <link href="icon.png" rel="icon"/>
 <link href="//github.com" rel="dns-prefetch"/>
 <head><title>主页 | Corona-Virus Diary游戏</title></head>
-<script>let language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en';
-localStorage.setItem('locale', language);
-if (window.location.search === "?switchlang=true") {
-    language = "zh";
-}
-if (language.indexOf("en-") !== -1) {
-    window.location = '/index.html'
-}
+<script>
+    function getCookie(name){
+        var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+        if(arr=document.cookie.match(reg)){
+            return unescape(arr[2]);
+        }
+        else{
+            return null;
+        }
+    }
+    let language;
+    if (document.cookie.indexOf("lang") === -1){
+        document.cookie="lang="+(localStorage.getItem('locale') || window.navigator.language.toLowerCase())+";expires=session;path=/";
+    }
+    if (window.location.search === "?switchlang=true") {
+        document.cookie="";
+        document.cookie="lang=zh-cn;expires=session;path=/"
+    }
+    if (document.cookie.indexOf("lang") !== -1){
+        language = getCookie("lang");
+    }
+    if (language.indexOf("en-") !== -1) {
+        window.location = '/index.html'
+    }
 </script>
 <body>
 <table border="0" cellpadding="10" cellspacing="10" class="menu-column" width="100%">
@@ -35,7 +51,7 @@ if (language.indexOf("en-") !== -1) {
                     <td><span class="menu-current">主页</span></td>
                 </tr>
                 <tr>
-                    <td><a class="menu-link" href="/download/index.html">下载</a></td>
+                    <td><a class="menu-link" href="/download/zh-Hans.html">下载</a></td>
                 </tr>
                 <tr>
                     <td><a class="menu-link" href="/support-zh.html">支持</a></td>

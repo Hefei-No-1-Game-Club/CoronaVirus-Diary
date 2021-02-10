@@ -4,16 +4,32 @@
 <meta charset="UTF-8"/>
 <link rel="stylesheet" type="text/css" href="/css/index.css"/>
 <head>
-    <title>下载</title>
+    <title>下载 | CoronaVirus-Diary游戏</title>
 </head>
-<script>let language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en';
-localStorage.setItem('locale', language);
-if (window.location.search === "?switchlang=true") {
-    language = "zh";
-}
-if (language.indexOf("en-") !== -1) {
-    window.location = '/index.html?switchlang=true'
-}
+<script>
+    function getCookie(name){
+        var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+        if(arr=document.cookie.match(reg)){
+            return unescape(arr[2]);
+        }
+        else{
+            return null;
+        }
+    }
+    let language;
+    if (document.cookie.indexOf("lang") === -1){
+        document.cookie="lang="+(localStorage.getItem('locale') || window.navigator.language.toLowerCase())+";expires=session;path=/";
+    }
+    if (window.location.search === "?switchlang=true") {
+        document.cookie="";
+        document.cookie="lang=zh-cn;expires=session;path=/"
+    }
+    if (document.cookie.indexOf("lang") !== -1){
+        language = getCookie("lang");
+    }
+    if (language.indexOf("en-") !== -1) {
+        window.location = '/download/index.html'
+    }
 </script>
 <body>
 <table border="0" cellpadding="10" cellspacing="10" class="menu-column" width="100%">

@@ -22,6 +22,17 @@
     <list default="true" id="8ab6cfba-b993-4c8d-ab0a-8cae06abd7b0" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/50x.html" beforeDir="false" afterPath="$PROJECT_DIR$/50x.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/zh-Hans.html" beforeDir="false" afterPath="$PROJECT_DIR$/download/zh-Hans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq-zh-Hans.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq-zh-Hans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sponsor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sponsor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sponsor/zh-Hans.html" beforeDir="false" afterPath="$PROJECT_DIR$/sponsor/zh-Hans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/support-zh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-Hans.html" beforeDir="false" afterPath="$PROJECT_DIR$/zh-Hans.html" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -143,6 +154,7 @@
       <workItem from="1612626458835" duration="3412000" />
       <workItem from="1612881964987" duration="945000" />
       <workItem from="1612884277200" duration="542000" />
+      <workItem from="1612965416101" duration="5594000" />
     </task>
     <task id="LOCAL-00001" summary="Add Google Analytics">
       <created>1604411394938</created>
