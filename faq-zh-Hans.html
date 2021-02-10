@@ -6,16 +6,32 @@
 <link rel="dns-prefetch" href="//github.com"/>
 <head>
     <meta charset="UTF-8">
-    <title>常见问题</title>
+    <title>常见问题 | CoronaVirus-Diary游戏</title>
 </head>
-<script>let language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en';
-localStorage.setItem('locale', language);
-if (window.location.search === "?switchlang=true") {
-    language = "zh";
-}
-if (language.indexOf("en-") !== -1) {
-    window.location = 'faq.html?switchlang=true'
-}
+<script>
+    function getCookie(name){
+        var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+        if(arr=document.cookie.match(reg)){
+            return unescape(arr[2]);
+        }
+        else{
+            return null;
+        }
+    }
+    let language;
+    if (document.cookie.indexOf("lang") === -1){
+        document.cookie="lang="+(localStorage.getItem('locale') || window.navigator.language.toLowerCase())+";expires=session;path=/";
+    }
+    if (window.location.search === "?switchlang=true") {
+        document.cookie="";
+        document.cookie="lang=zh-cn;expires=session;path=/"
+    }
+    if (document.cookie.indexOf("lang") !== -1){
+        language = getCookie("lang");
+    }
+    if (language.indexOf("en-") !== -1) {
+        window.location = '/faq.html'
+    }
 </script>
 <body>
 <table border="0" cellpadding="10" cellspacing="10" class="menu-column" width="100%">
@@ -35,7 +51,7 @@ if (language.indexOf("en-") !== -1) {
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
                 <tbody>
                 <tr>
-                    <td><a class="menu-link" href="/zh-Hans.html?switchlang=true">主页</a></td>
+                    <td><a class="menu-link" href="/zh-Hans.html">主页</a></td>
                 </tr>
                 <tr>
                     <td><a class="menu-link" href="/download/index.html">下载</a></td>
