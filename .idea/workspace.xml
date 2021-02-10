@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ab6cfba-b993-4c8d-ab0a-8cae06abd7b0" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/50x.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/50x.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.css" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -145,6 +141,8 @@
       <workItem from="1610722132464" duration="2065000" />
       <workItem from="1611228141734" duration="5189000" />
       <workItem from="1612626458835" duration="3412000" />
+      <workItem from="1612881964987" duration="945000" />
+      <workItem from="1612884277200" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="Add Google Analytics">
       <created>1604411394938</created>
